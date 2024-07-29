@@ -8,7 +8,7 @@ from langchain_groq import ChatGroq
 from langchain_core.messages import HumanMessage
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "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"
 
 model = ChatGroq(model="llama3-8b-8192")
 
